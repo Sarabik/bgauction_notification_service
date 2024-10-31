@@ -1,0 +1,35 @@
+2024-10-31 17:53:51 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-31 17:53:51 INFO  NotificationserviceApplication:50 - Starting NotificationserviceApplication using Java 17.0.12 with PID 364 (C:\Users\lidija.silantjeva\IdeaProjects\auction_application\services\notificationservice\build\classes\java\main started by lidija.silantjeva in C:\Users\lidija.silantjeva\IdeaProjects\auction_application\services\notificationservice)
+2024-10-31 17:53:51 INFO  NotificationserviceApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-31 17:53:51 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-31 17:53:51 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-31 17:53:53 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-31 17:53:53 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2024-10-31 17:53:54 INFO  GenericScope:282 - BeanFactory id=cd4cb18b-b523-307d-84ac-f203be47c476
+2024-10-31 17:53:54 WARN  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:429 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-10-31 17:53:54 WARN  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:437 - Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-10-31 17:53:55 INFO  TomcatWebServer:111 - Tomcat initialized with port 8400 (http)
+2024-10-31 17:53:55 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8400"]
+2024-10-31 17:53:55 INFO  StandardService:173 - Starting service [Tomcat]
+2024-10-31 17:53:55 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-31 17:53:55 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-10-31 17:53:55 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 3966 ms
+2024-10-31 17:53:55 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-10-31 17:53:56 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65eeab41
+2024-10-31 17:53:56 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-10-31 17:53:56 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-31 17:53:56 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-31 17:53:57 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-31 17:53:57 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-31 17:53:59 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-31 17:53:59 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-31 17:53:59 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-31 17:54:01 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-10-31 17:54:02 INFO  DiscoveryClientOptionalArgsConfiguration:74 - Eureka HTTP Client uses RestTemplate.
+2024-10-31 17:54:02 WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:94 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-10-31 17:54:02 INFO  InstanceInfoFactory:67 - Setting initial instance status as: STARTING
+2024-10-31 17:54:03 INFO  EurekaServiceRegistry:70 - Registering application NOTIFICATIONSERVICE with eureka with status UP
+2024-10-31 17:54:03 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8400"]
+2024-10-31 17:54:03 INFO  TomcatWebServer:243 - Tomcat started on port 8400 (http) with context path '/'
+2024-10-31 17:54:03 INFO  EurekaAutoServiceRegistration:150 - Updating port to 8400
+2024-10-31 17:54:03 INFO  NotificationserviceApplication:56 - Started NotificationserviceApplication in 12.765 seconds (process running for 14.415)
