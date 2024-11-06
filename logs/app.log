@@ -1,35 +1,180 @@
-2024-10-31 17:53:51 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
-2024-10-31 17:53:51 INFO  NotificationserviceApplication:50 - Starting NotificationserviceApplication using Java 17.0.12 with PID 364 (C:\Users\lidija.silantjeva\IdeaProjects\auction_application\services\notificationservice\build\classes\java\main started by lidija.silantjeva in C:\Users\lidija.silantjeva\IdeaProjects\auction_application\services\notificationservice)
-2024-10-31 17:53:51 INFO  NotificationserviceApplication:654 - No active profile set, falling back to 1 default profile: "default"
-2024-10-31 17:53:51 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-10-31 17:53:51 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-10-31 17:53:53 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-10-31 17:53:53 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
-2024-10-31 17:53:54 INFO  GenericScope:282 - BeanFactory id=cd4cb18b-b523-307d-84ac-f203be47c476
-2024-10-31 17:53:54 WARN  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:429 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-10-31 17:53:54 WARN  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:437 - Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2024-10-31 17:53:55 INFO  TomcatWebServer:111 - Tomcat initialized with port 8400 (http)
-2024-10-31 17:53:55 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8400"]
-2024-10-31 17:53:55 INFO  StandardService:173 - Starting service [Tomcat]
-2024-10-31 17:53:55 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.30]
-2024-10-31 17:53:55 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
-2024-10-31 17:53:55 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 3966 ms
-2024-10-31 17:53:55 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
-2024-10-31 17:53:56 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65eeab41
-2024-10-31 17:53:56 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
-2024-10-31 17:53:56 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-31 17:53:56 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-10-31 17:53:57 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
-2024-10-31 17:53:57 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-10-31 17:53:59 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-10-31 17:53:59 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-31 17:53:59 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-31 17:54:01 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
-2024-10-31 17:54:02 INFO  DiscoveryClientOptionalArgsConfiguration:74 - Eureka HTTP Client uses RestTemplate.
-2024-10-31 17:54:02 WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:94 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-10-31 17:54:02 INFO  InstanceInfoFactory:67 - Setting initial instance status as: STARTING
-2024-10-31 17:54:03 INFO  EurekaServiceRegistry:70 - Registering application NOTIFICATIONSERVICE with eureka with status UP
-2024-10-31 17:54:03 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8400"]
-2024-10-31 17:54:03 INFO  TomcatWebServer:243 - Tomcat started on port 8400 (http) with context path '/'
-2024-10-31 17:54:03 INFO  EurekaAutoServiceRegistration:150 - Updating port to 8400
-2024-10-31 17:54:03 INFO  NotificationserviceApplication:56 - Started NotificationserviceApplication in 12.765 seconds (process running for 14.415)
+2024-11-06 11:13:07 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-06 11:13:07 INFO  NotificationserviceApplication:50 - Starting NotificationserviceApplication using Java 17.0.12 with PID 23720 (C:\Users\lidija.silantjeva\IdeaProjects\auction_application\services\notificationservice\build\classes\java\main started by lidija.silantjeva in C:\Users\lidija.silantjeva\IdeaProjects\auction_application\services\notificationservice)
+2024-11-06 11:13:07 INFO  NotificationserviceApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-11-06 11:13:07 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-06 11:13:07 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-06 11:13:09 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-06 11:13:09 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 273 ms. Found 1 JPA repository interface.
+2024-11-06 11:13:09 INFO  GenericScope:282 - BeanFactory id=a1db4460-8700-3af9-a555-ae16d82cf6e1
+2024-11-06 11:13:10 WARN  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:429 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-11-06 11:13:10 WARN  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:437 - Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-11-06 11:13:10 INFO  TomcatWebServer:111 - Tomcat initialized with port 8400 (http)
+2024-11-06 11:13:10 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8400"]
+2024-11-06 11:13:11 INFO  StandardService:173 - Starting service [Tomcat]
+2024-11-06 11:13:11 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-06 11:13:11 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-11-06 11:13:11 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 3905 ms
+2024-11-06 11:13:11 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-11-06 11:13:11 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69997c59
+2024-11-06 11:13:11 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-11-06 11:13:12 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-06 11:13:12 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-06 11:13:12 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-11-06 11:13:13 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-06 11:13:15 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-06 11:13:15 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06 11:13:16 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-06 11:13:16 WARN  OptionalLiveReloadServer:62 - Unable to start LiveReload server
+2024-11-06 11:13:16 INFO  FeignClientFactoryBean:468 - For 'GATEWAY' URL not provided. Will try picking an instance via load-balancing.
+2024-11-06 11:13:18 INFO  DiscoveryClientOptionalArgsConfiguration:74 - Eureka HTTP Client uses RestTemplate.
+2024-11-06 11:13:18 WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:94 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-11-06 11:13:18 INFO  InstanceInfoFactory:67 - Setting initial instance status as: STARTING
+2024-11-06 11:13:18 INFO  EurekaServiceRegistry:70 - Registering application NOTIFICATIONSERVICE with eureka with status UP
+2024-11-06 11:13:18 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8400"]
+2024-11-06 11:13:19 INFO  TomcatWebServer:243 - Tomcat started on port 8400 (http) with context path '/'
+2024-11-06 11:13:19 INFO  EurekaAutoServiceRegistration:150 - Updating port to 8400
+2024-11-06 11:13:19 INFO  NotificationserviceApplication:56 - Started NotificationserviceApplication in 13.418 seconds (process running for 15.458)
+2024-11-06 11:13:23 INFO  KafkaMessageListenerContainer:292 - auction-update-event: partitions assigned: [outbid-event-topic-0, outbid-event-topic-1, outbid-event-topic-2]
+2024-11-06 11:13:23 INFO  KafkaMessageListenerContainer:292 - auction-update-event: partitions assigned: [auction-finished-event-topic-0, auction-finished-event-topic-1, auction-finished-event-topic-2]
+2024-11-06 11:13:23 INFO  KafkaMessageListenerContainer:292 - auction-update-event: partitions assigned: [new-bid-event-topic-0, new-bid-event-topic-1, new-bid-event-topic-2]
+2024-11-06 11:57:30 INFO  AuctionEventDeserializer:23 - Start deserialization
+2024-11-06 11:57:30 INFO  AuctionEventDeserializer:23 - Start deserialization
+2024-11-06 11:57:30 INFO  EventHandler:40 - Received message from new-bid-event-topic with event: AuctionUpdateEvent(auctionId=1, sellerId=1, winnerId=3, gameId=1, currentPrice=190.00, createdAt=2024-11-06T11:57:30.231071100)
+2024-11-06 11:57:30 INFO  EventHandler:31 - Received message from outbid-event-topic with event: AuctionUpdateEvent(auctionId=1, sellerId=1, winnerId=2, gameId=1, currentPrice=150.00, createdAt=2024-11-06T11:57:29.647705500)
+2024-11-06 12:11:21 INFO  AuctionEventDeserializer:23 - Start deserialization
+2024-11-06 12:11:21 INFO  EventHandler:49 - Received message from auction-finished-event-topic with event: AuctionUpdateEvent(auctionId=4, sellerId=1, winnerId=null, gameId=2, currentPrice=100.00, createdAt=2024-11-06T12:11:21.514101800)
+2024-11-06 13:06:22 INFO  AuctionEventDeserializer:23 - Start deserialization
+2024-11-06 13:06:22 INFO  EventHandler:49 - Received message from auction-finished-event-topic with event: AuctionUpdateEvent(auctionId=1, sellerId=1, winnerId=3, gameId=1, currentPrice=190.00, createdAt=2024-11-06T13:06:22.426809100)
+2024-11-06 13:36:21 INFO  AuctionEventDeserializer:23 - Start deserialization
+2024-11-06 13:36:21 INFO  EventHandler:49 - Received message from auction-finished-event-topic with event: AuctionUpdateEvent(auctionId=2, sellerId=2, winnerId=3, gameId=3, currentPrice=350.00, createdAt=2024-11-06T13:36:21.589565600)
+2024-11-06 14:57:22 INFO  AuctionEventDeserializer:23 - Start deserialization
+2024-11-06 14:57:22 INFO  EventHandler:49 - Received message from auction-finished-event-topic with event: AuctionUpdateEvent(auctionId=3, sellerId=2, winnerId=null, gameId=4, currentPrice=100.00, createdAt=2024-11-06T14:57:22.108420800)
+2024-11-06 15:27:32 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:27:32 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:27:32 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:27:32 ERROR DiscoveryClient:851 - DiscoveryClient_NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837) [eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401) [eureka-client-2.0.2.jar:2.0.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2024-11-06 15:28:02 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:28:02 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:28:02 ERROR DiscoveryClient:851 - DiscoveryClient_NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837) [eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401) [eureka-client-2.0.2.jar:2.0.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2024-11-06 15:28:32 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:28:32 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:28:32 ERROR DiscoveryClient:851 - DiscoveryClient_NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837) [eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401) [eureka-client-2.0.2.jar:2.0.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2024-11-06 15:29:02 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:29:02 ERROR DiscoveryClient:851 - DiscoveryClient_NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837) [eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401) [eureka-client-2.0.2.jar:2.0.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2024-11-06 15:29:02 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:29:32 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:29:32 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:29:32 ERROR DiscoveryClient:851 - DiscoveryClient_NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837) [eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401) [eureka-client-2.0.2.jar:2.0.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2024-11-06 15:30:02 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:30:02 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:30:02 ERROR DiscoveryClient:851 - DiscoveryClient_NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837) [eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401) [eureka-client-2.0.2.jar:2.0.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2024-11-06 15:30:32 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:30:32 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:30:32 ERROR DiscoveryClient:851 - DiscoveryClient_NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837) [eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401) [eureka-client-2.0.2.jar:2.0.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2024-11-06 15:31:02 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:31:02 WARN  RetryableEurekaHttpClient:130 - Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-11-06 15:31:02 ERROR DiscoveryClient:851 - DiscoveryClient_NOTIFICATIONSERVICE/host.docker.internal:notificationservice:8400 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837) [eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401) [eureka-client-2.0.2.jar:2.0.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]

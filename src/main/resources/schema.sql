@@ -5,7 +5,8 @@ CREATE TABLE IF NOT EXISTS notifications (
     user_id BIGINT NOT NULL,
     email VARCHAR(255) NOT NULL,
     notification_text TEXT NOT NULL,
-    created TIMESTAMP NOT NULL,
-    UNIQUE (email, created)
+    created_at TIMESTAMP NOT NULL,
+    send_at TIMESTAMP NOT NULL,
+    UNIQUE (email, created_at)
 );
 

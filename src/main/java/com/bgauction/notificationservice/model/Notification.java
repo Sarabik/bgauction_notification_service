@@ -27,7 +27,7 @@ import java.time.LocalDateTime;
 @ToString
 @Entity
 @Table(name = "notifications",
-        uniqueConstraints = {@UniqueConstraint(columnNames = {"email", "notification_text", "created"})})
+        uniqueConstraints = {@UniqueConstraint(columnNames = {"email", "notification_text", "created_at"})})
 @AllArgsConstructor
 public class Notification {
     @Id
@@ -50,7 +50,11 @@ public class Notification {
     @Column(name = "notification_text", updatable = false)
     private String notificationText;
 
-    @NotBlank
-    @Column(name = "created", updatable = false)
-    private LocalDateTime created;
+    @NotNull
+    @Column(name = "created_at", updatable = false)
+    private LocalDateTime createdAt;
+
+    @NotNull
+    @Column(name = "send_at", updatable = false)
+    private LocalDateTime sendAt;
 }
